@@ -1,0 +1,4 @@
+for: Es una herramienta que nos ayuda a repetir una operacion la cantidad de veces que deseamos
+&&: Compara si todas las condiciones que colocamos son ciertas 
+||: Compara si Al menos una de las condiciones que colocamos son ciertas
+!: Compara si las condiciones que colocamos No son ciertas

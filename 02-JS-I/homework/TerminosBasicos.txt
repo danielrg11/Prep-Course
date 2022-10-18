@@ -1,0 +1,6 @@
+Variable: Son capsulas en la cual guardamos informacion para utilizar mas adelante
+String: Es un tipo de informacion que se escribe entre comillas
+Funciones: Son herramientas que creamos las cuales tienen dentro de si una seria de acciones que se ejecutan cada vez que utilizemos la herramienta
+    Argumentos: Son informacion externa que reciben las herramientas como las funciones para realizar sus acciones
+            return: Dentro de las funciones el termino return determina que la herramienta nos va a devolver algo en especifico 
+valores booleanos: Son un tipo de informacion que solo puede ser verdadera o falsa, nos sirve para realizar comparaciones de una forma rapida 

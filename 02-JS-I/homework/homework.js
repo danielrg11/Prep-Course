@@ -62,7 +62,7 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
     var igualdad= true; 
-      if (x == y) {
+      if (x === y) {
         igualdad=true;
       }
         else{
@@ -76,13 +76,13 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var igualdad= true; 
-  if (str1 == str2) {
-    igualdad=true;
-  }
-    else{
-      igualdad=false
+    if (str1.length === str2.length) {
+      igualdad=true;
     }
-return igualdad
+      else{
+       igualdad=false
+     }
+  return igualdad
 }
 
 function menosQueNoventa(num) {

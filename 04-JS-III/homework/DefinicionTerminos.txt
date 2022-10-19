@@ -1,0 +1,1 @@
+Array: Son contenedores en los cuales podemos almacenar informacion de cualquier tipo por ejemplo numeros o letras

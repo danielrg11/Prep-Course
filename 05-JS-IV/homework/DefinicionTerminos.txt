@@ -1,0 +1,5 @@
+Objetos: Son Variables que dentro de si tienen una serie de caracteristicas que definen aspectos de la misma
+Propiedades: Son las caracteristicas que describen algo en concreto
+Metodos: Nombre que se le da a las funciones que realizan algo dentro de un objeto
+Bucle For...in: Es el bucle que se utiliza para poder reccorrer objetos
+Notacion de puntos vs corchetes: Ambas sirven para acceder a cualquier propiedad que tenga un objeto dentro de si, solo que la notacion de Corchetes puede llegar a ser mas especifica

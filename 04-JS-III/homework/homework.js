@@ -10,7 +10,7 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[array.length - 1];
+  return array[array.length -1];
 }
 
 
@@ -82,11 +82,11 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  var resul=0;
-  for(var i of numeros){
-    resul+=i
+  let sum = 0;
+  for(var i = 0; i < numeros.length; i++){
+    sum = sum + numeros[i] 
   }
-  return resul;
+  return sum;
 }
 
 
@@ -94,11 +94,11 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  var resul=0;
-  for(var i of resultadosTest){
-    resul+=i
+  let sum = 0;
+  for(var i = 0; i < resultadosTest.length; i++){
+    sum = sum + resultadosTest[i] 
   }
-  return resul/resultadosTest.length;
+  return sum / resultadosTest.length ;
 }
 
 

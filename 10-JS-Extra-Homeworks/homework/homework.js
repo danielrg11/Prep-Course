@@ -62,13 +62,9 @@ function asAmirror(str) {
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
   function invertir(str){
-    return newArray = Array.from(str.split('').reverse().join(''));
+    return str.split('').reverse().join('');
   }
-  let newPhrase = [];
-  while (invertir(str).length>0){
-    invertir.newArray.pop();
-  }
-  return newPhrase;
+  return invertir(str.split(' ').reverse().join(' ')); 
 } 
 
 

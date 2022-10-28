@@ -10,6 +10,8 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  var newArray = Object.entries(objeto);
+  return newArray;
 }
 
 
@@ -18,6 +20,12 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  let newArray = Array.from(string);
+  let contador = {};
+  newArray.forEach(function(letra){
+    contador[letra] = (contador[letra] || 0) + 1
+  });
+  return contador;
 }
 
 
@@ -26,6 +34,24 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  var newStr1 = '';
+  var newStr2 = '';
+  function encontrarMayus(s){
+    return s === s.toUpperCase();
+  }
+  function encontrarMinus(s){
+    return s === s.toLowerCase();
+  }
+  for( let i = 0; i < s.length; i++){
+    let letra = s.charAt(i);
+    if(encontrarMayus(letra)){
+      newStr1 = newStr1 + letra;
+    }
+    else if (encontrarMinus(letra)){
+      newStr2 = newStr2 + letra;
+    }
+  }
+  return newStr1+newStr2;
 }
 
 
@@ -35,6 +61,14 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+  function invertir(str){
+    return newArray = Array.from(str.split('').reverse().join(''));
+  }
+  let newPhrase = [];
+  while (invertir(str).length>0){
+    invertir.newArray.pop();
+  }
+  return newPhrase;
 } 
 
 
